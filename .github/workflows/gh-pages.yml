@@ -4,7 +4,10 @@ name: GitHub Pages
 on:
   push:
     branches: [ master ]
-  workflow_dispatch: {}
+  workflow_dispatch: {}     # 允许手动触发
+
+permissions:
+  contents: write           # 允许往 gh-pages 推代码
 
 jobs:
   build-deploy:
@@ -24,7 +27,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Build
-        run: hugo --minify && touch public/.nojekyll   # 关键：禁止 Jekyll
+        run: hugo --minify && touch public/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
