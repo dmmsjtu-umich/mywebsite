@@ -67,3 +67,11 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[environments]
+
+  [environments.development]
+  baseURL = "http://localhost:1313/mywebsite"
+
+  [environments.production]
+  baseURL = "https://dmmsjtu-umich.github.io/mywebsite/"
