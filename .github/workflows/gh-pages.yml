@@ -1,11 +1,10 @@
 # .github/workflows/gh-pages.yml
-
 name: GitHub Pages
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  workflow_dispatch: {}
 
 jobs:
   build-deploy:
@@ -25,7 +24,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify && touch public/.nojekyll   # 关键：禁止 Jekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
