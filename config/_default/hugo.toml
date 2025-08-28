@@ -3,6 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
+#dmmsjtu-umich
 baseURL = "https://dmmsjtu-umich.github.io/mywebsite/"
 defaultContentLanguage = "en"
 
@@ -67,11 +68,3 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
-
-[environments]
-
-  [environments.development]
-  baseURL = "http://localhost:1313/mywebsite"
-
-  [environments.production]
-  baseURL = "https://dmmsjtu-umich.github.io/mywebsite/"
