@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blowfish</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/mywebsite/</link>
     <description>Recent content on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>dmmsjtu@umich.edu (Miaomiao Dai)</managingEditor>
     <webMaster>dmmsjtu@umich.edu (Miaomiao Dai)</webMaster>
     <copyright>© 2025 Miaomiao Dai</copyright>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/mywebsite/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
