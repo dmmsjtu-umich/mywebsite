@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Blowfish</title>
+    <link>http://localhost:1313/mywebsite/project/</link>
+    <description>Recent content in Projects on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>dmmsjtu@umich.edu (Miaomiao Dai)</managingEditor>
+    <webMaster>dmmsjtu@umich.edu (Miaomiao Dai)</webMaster>
+    <copyright>© 2025 Miaomiao Dai</copyright>
+    <atom:link href="http://localhost:1313/mywebsite/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Neural ODE for Planar Pushing Dynamics</title>
+      <link>http://localhost:1313/mywebsite/project/neural-ode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>dmmsjtu@umich.edu (Miaomiao Dai)</author>
+      <guid>http://localhost:1313/mywebsite/project/neural-ode/</guid>
+      <description>基于 Neural ODE 的平面推块动力学建模与闭环控制</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/mywebsite/project/neural-ode/feature.png" />
+    </item>
+    
+  </channel>
+</rss>
